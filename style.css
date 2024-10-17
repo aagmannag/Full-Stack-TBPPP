@@ -1,0 +1,124 @@
+.header{
+    background: url("https://images.unsplash.com/photo-1470071459604-3b5ec3a7fe05?q=80&w=1874&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D");
+    height: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.nav-bar{
+    height: 40px;
+    padding: 20px 100px 10px 140px;
+    text-align: left;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    display: flex;
+    gap:20px;
+    position: absolute;
+    top:0px;
+    align-self: left;
+    position:fixed;
+    top:0px;
+    text-align: left;
+    width:100%;
+}
+ul{
+    display: flex;
+    justify-content: space-between;
+}
+.nav-bar i{
+    align-items: right;
+}
+.search{
+    align-items: right;
+}
+.logo{
+    text-align: center;
+    background-color: black;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    display: flex;
+    align-self: center;
+    height:50px;
+    width: 300px;
+    margin:auto;
+    align-items: center;
+    justify-content: center;
+    color:white;
+
+}
+.aboutmepara{
+    text-align: left;
+}
+.aboutme{
+    text-align:center;
+    width: 60%;
+    margin:auto;
+    justify-content: center;
+    color: grey;
+}
+.part3 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 00px;
+    padding: 10px 40px 40px 100px;
+    height: 400px;
+}
+
+.nameimage, .nameabout {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    flex: 1;
+    height: 400px;
+}
+
+.nameimage {
+    text-align: center;
+}
+
+.nameabout {
+    text-align: left;
+    align-self: center;
+    margin-right: 100px;
+    font-size: 20px;
+    color:gray;
+}
+
+
+.part3 img {
+    max-width: 100%;
+}
+
+.good{
+    display: flex;
+    justify-content: center;
+}
+
+.skills{
+    justify-content: center;
+    color: black;
+}
+
+.skills{
+    text-align: left;
+    font-size: 24px;
+}
+
+.skills progress{
+    width: 80%;
+    height: 30px;
+    text-align: center;
+}
+
+.prog{
+    margin-left: 200px;
+}
+
+.partn{
+    margin-top: 40px;
+    display: flex;
+    justify-content: space-around;
+    background-color: black;
+    color: white;
+    opacity: 0.6;
+}
